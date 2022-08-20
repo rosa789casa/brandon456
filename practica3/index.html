@@ -10,13 +10,16 @@
 <body>
 
     <style>
-        h3 {
-            color: brown
-        }
-        li {
-            list-style: decimal;
-        }
-        .boton{
+       <h3> { color: brown
+    } 
+        </h3>
+
+        <li {
+            list-style: decimal;}
+            
+        </li>
+
+       <li> .boton{
             border: none;
             color: rgb(255, 255, 255);
             padding: 15px 32px;
@@ -27,17 +30,18 @@
             margin: 4px 2px;
             cursor: pointer;
             background-color: crimson;
-        }
+       } </li>
     </style>
 
     <h1 style="color: red ">Resumen de etiquetas</h1>
     <ul>
 
         <li>
-            <h3 style="color:rgb(0, 255, 119)">&lt;a&gt; </h3>
+            <h3 style="color:hsl(241, 100%, 50%)">&lt;a&gt; </h3>
         </li>
         <p>Etiqueta ancla sirve para un URL de alguna pagina o documento <br> Ejemplo</p>
         <a href="https://www.youtube.com/">Soy un link de Youtube</a> 
+
 
         <li>
             <h3>&lt;abbr&gt;</h3>
@@ -46,90 +50,34 @@
             si esta presente el atributo title tiene que contener la descripción completa y nada más
             Ejemplo: <br> </p>
         <abbr title="Lenguaje de hipertexto"> html </abbr>
+
+
+        <li>        
+            <h3>&lt;address&gt;</h3>
+        </li>
+        <p>Define la información de contacto del autor/propietario de un documento u artículo.
+            </p>Ejemplo:
+            <escrito>< por> Alfonso 
+                <ahref="example" Alfonso>Soy un link</a> </addres>
+
         <li>
             <h3> &lt;article&gt;</h3>
         </li>
-<<<<<<< HEAD
-        <style>
-            li {
-                color: crimson;
-            }
-        </style>
-        <p>Etiqueta sirve para abreviar palabras <br> Ejemplo</p>
-        <abbr title="Lenguaje de hipertexto"> html </abbr>
-        <style>
-            abbr {
-                color: darkcyan
-            }
-        </style>
-        <li style="list-style:decimal;">
-            <h3>abbr </h3>
-        </li>
-        <style>
-            li {
-                color: crimson;
-            }
-        </style>
-        <p>Etiqueta sirve para abreviar palabras <br> Ejemplo</p>
-        <abbr title="Lenguaje de hipertexto"> html </abbr>
-        <style>
-            abbr {
-                color: darkcyan
-            }
-        </style>
-        <li style="list-style:decimal;">
-            <h3>abbr </h3>
-        </li>
-        <style>
-            li {
-                color: rgb(220, 20, 20);
-            }
-        </style>
-        <p>Etiqueta sirve para abreviar palabras <br> Ejemplo</p>
-        <abbr title="Lenguaje de hipertexto"> html </abbr>
-        <li style="list-style:decimal;">
-            <h3>abbr </h3>
-        </li>
-        <style>
-            li {
-                color: crimson;
-            }
-
-        <address> 
-            <escrito>< por> Alfonso <a
-            href="example" Alfonso>Soy
-            un link</a> </addres>
-            <p> Define la información de contacto del autoproieario de un documento u articulo.
-                Ejemplo:
-                Escrito por Alfonso </p>
-
-                
-                <audio controls>
-                    <p> Agrega contres de audio como reproducción, pausa y volumen. El <source> permite especificar archivos de audidio alyernativos entre los que puede elegir el navegador.
-                        </p>
-                        Ejemplo:
-                        <button>
-                        <p>Define un botón en el que se puede hacer clic. Dentro de un <button> puedes terner texto (y etiquetas como<i>,<b>,<strog>,<img>,etc)
-!Eso mo es posible como un boton creado con el<imput>
-    Sugeencia: Especifique siempre el type de un <botton>, para indicar a los navegadores que tipo de botón es.
-        Consejo: Puede diseñar botones con CSS.
-        Ejemplo:</p>        
-
-        <a
-            href="example">Soy
-            un link</a>
-        
-=======
-        <p>
-            Un artículo debe tener sintido por sí mismo y debe ser posible distriburilo independientemente del resto
-            del sitio.
-            Fuentes potenciales para el elemto article:
-            Publicación en el foro
-            Entrada en el blog
-            Noticia
-            NOTA: <article> no se muestra como algo especial en un navegaror.Sin embargo, puede usar CSS para
-            darle diseño <br> Ejemplo
+        <p> Un artículo debe tener sintido por sí mismo y debe ser posible distriburilo independientemente del resto
+        del sitio.
+        Fuentes potenciales para el elemeto article 
         </p>
+
+        <ul>
+                <li style="list-style: circle">Publicación en el foro</li>
+                <li style="list-style: circle">Entrada en el blog</li>
+                <li style="list-style: circle">Noticia</li>
+                
+            </ul>
+               
+        <strong>NOTA:</strong> &lt;article&gt; no se muestra como algo especial en un navegaror.Sin embargo, puede usar CSS para
+        darle diseño
+
         <a href="example/article.html">Ejemplo article con css.</a>
 
         <li>
@@ -139,18 +87,18 @@
             Define algún contenido además del contenido en el que se coloca. El contenido aparte de be estar
             indirectamente relacionado con el continido circulante.<br>
             <strong>Sugerencia:</strong> aside se coloca a menudo como una barra lateral en un documento. <br>
-            <strong>Nota:</strong> Este elemento no se muestra como algo especial en el navegador. Sin embargo, puede usar CSS para
+            <strong>Nota:</strong> Este elemento no se muestra como algo especial en el navegador. Sin embargo, <br>puede usar CSS para
             diseñar el aside.
         </p>
         <a href="example/aside.html">Ejemplo aside con css
         </a>
->>>>>>> f7ab84d389184decf942cf504b0f7336c0e541cd
 
+        
         <li >
             <h3>&lt;audio&gt;<h3>
         </li>
         <p> 
-            Agrega controles de audio, como reproducción, pausa y volumen. El <source> permite especificar
+            Agrega controles de audio, como reproducción, pausa y volumen. El &lt;source&gt; permite especificar
             archivos de audio alternativos entro los que puede elegirl el navegador.
             <br>Ejemplo:
         </p>
@@ -163,9 +111,9 @@
         </li>
         <p>
             Define un botón enel que es puede hacer clic.
-            Dentro de un &lt;button&gt; puedes poner texto (y etiquteas como &lt;i>, &lt;b&gt;, &lt;strong&gt;, &lt;img&gt;, etc). Eso no es
-            posible con un botón creado con el &lt;input&gt;.<br> 
-            <strong>Sugerencia:</strong> Especifique siembre el type de un &lt;button&gt;, para indicar a los navegadores qué tipo de botón
+            Dentro de un &lt;button&gt; puedes poner texto <br> (y etiquteas como &lt;i>, &lt;b&gt;, &lt;strong&gt;, &lt;img&gt;, etc). Eso no es
+            posible con un botón creado con el &lt;input&gt;.
+            <strong>Sugerencia:</strong> Especifique siembre el type de un &lt;button&gt;, <br> para indicar a los navegadores qué tipo de botón
             es.<br>
             <strong> Consejo: </strong>Puede diseñar botones facilmente con CSS.<br>
             Ejemplo:
@@ -177,7 +125,7 @@
             <h3>&lt;form&gt;</h3>
         </li>
         <p>
-            Es un contenedor para diferentes tipo de elementos de entrada, como: campos de texto, casillas de
+            Es un contenedor para diferentes tipo de elementos de entrada, <br> como: campos de texto, casillas de
             verificación, botones de opción, botonees de envío, etc. <br> 
             Mustra un campo de entrada de texto de una solo linea. <br>
             <input type="text"> <br>
@@ -223,9 +171,129 @@
             <h4>Soy un ejemplo</h4> <br>
         </p>
 
+        <li >
+            <h3>&lt;hgroup&gt;<h3>
+        </li>
+        <p> 
+            Generalmente se usa para agrupar un conjunto d euno o más elementos &lt;h1&gt; - &lt;h6&gt;,<br> para agrupar, por<br>
+            ejemplo, un titulo de sección y un subtitulo adjunto.
+    
+            <br>Ejemplo:
+        </p>
+        <a href="example/hgroup.html"> Ejemplo hgroup</a>
+
+        <li >
+            <h3>&lt;h1&gt;&lt;h6&gt;</h3>
+        </li>
+        <p> 
+            Se utilizan para definir encabezados HTML.
+            Ejemplo
+            <h1>HOLA MUNDO</h1> <br>
+            <h6>HOLA MUNDO</h6> <br> 
+        </p>
+
+        <li >
+            <h3>&lt;img&gt;</h3>
+        </li>
+        <p>
+             Se utiliza para incrustar una imagen en una página HTML.
+             Técnicamente, las imágenes no se insertan en una página web; <br>las imágenes están vinculadas a páginas
+             web. La etiqueta &lt;img&gt; crea un espacio de espera para la imagen de referencia.
+             Tiene atributos obligatorios:
+             src: especifica la ruta a la imagen
+             alt: especifica un texto alternativo para la imagen, <br> si la imagen por algún motivo no se puede
+             mostrar    
+         </p>
+         <a href="example/img.HTML"> Ejemplo img</a>
+
+
+         <li >
+            <h3>&lt;map&gt;</h3>
+        </li>
+
+        <p> 
+            Se utiliza para definir un mapa de imagen, es una imagen con áreas <br> en las que se puede hacer clic.
+            El atributo de nombre requerido del &lt;Map&gt; esta asocioado con el <br> atributo usemap de &lt;img&gt; y crea una
+            relación entre la imagen y el mapa.
+        </p>
+        <a href="example/map.HTML"> Ejemplo map</a>
+
+
+        <li >
+            <h3>&lt;nav&gt;</h3>
+        </li>
+
+        <p> 
+            Define un conjunto de enlaces de navegación.
+            Tenga en cuenta que NO todos los enlaces de un documento deben <br> estar dentro de un &lt;nav&gt;. Este
+            elemento está destinado solo para el bloque principal de enlaces de navegación. 
+        </p>
+        <a href="https://www.google.com/">Soy un link de google</a> <br>
+        <a href="https://www.youtube.com/">Soy un link de Youtube</a> <br>
+        <a href="https://www.github.com/">Soy un link de githob</a> <br>
+        <a href="https://www.edc.com/">Soy un link de edc</a> <br>
+
+        <li >
+            <h3>&lt;P&gt;</h3>
+        </li>
+
+        <p> 
+            Define un párrafo.
+            Los navegadores agregan automáticamente una línea en blanco antes y después de cada &lt;p&gt;
+        </p>
+        <a href="example/P.HTML"> Ejemplo P</a>
+
+        <li >
+            <h3>&lt;script&gt;</h3>
+        </li>
+
+        <p> 
+            Se utiliza para incrustar un script del lado del cliente JavaScript
+            Contiene declaraciones de secuencias de comandos o apunta a un archivo de secuencia de comandos
+            externos a través del atributo src
+            Los usus comunes de JavaScript son manipulación de imágenes, la validación de formularios y los
+            cambis dinámicos de contenido.
+            Nota: cuando un navegador lee una hoja de estilo, formateará el documento HTML de acuerdo con la
+            información de la hoja de estilo. Si se han definido algunas propiedades para el mismo selector
+            (elemento) en diferentes hojas de estilo, se utilizará el valor de la última hoja de estilo leída <br> (consulte el
+             ejemplo a continuación).
+  
+        </p>
+        <a href="example/script.HTML"> Ejemplo script</a>
+
+
+        <li >
+            <h3>&lt;style&gt;</h3>
+        </li>
+
+        <p> 
+            Se utiliza para definir la información de estilo CSS de un documento
+            Dentro de &lt;style&gt; especifica cómo deben mostrarse los elementos HTML en un navegador.
+            Ejemplo
+  
+  
+        </p>
+        <a href="example/style.HTML"> Ejemplo style</a>
+
+
+        <li >
+            <h3>&lt;section&gt;</h3>
+        </li>
+
+        <p> 
+            Define una sección en un documento
+        </p>
+
+        <a href="example/section.HTML"> Ejemplo section</a>
+
+
+        
+        
+
+
     </ul>
 
-    </body>
+</body>
 
 
 </html>
