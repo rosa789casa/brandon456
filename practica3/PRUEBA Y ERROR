@@ -8,32 +8,33 @@
     <title>Resumen de etiquetas</title>
 </head>
 <body>
-
     <style>
-       <h3> { color: brown
-    } 
-        </h3>
-
-        <li {
-            list-style: decimal;}
-            
-        </li>
-
-       <li> .boton{
-            border: none;
-            color: rgb(255, 255, 255);
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            background-color: crimson;
-       } </li>
-    </style>
+        <h3> { color: brown
+     } 
+         </h3>
+ 
+         <li {
+             list-style: decimal;}
+             
+         </li>
+ 
+        <li> .boton{
+             border: none;
+             color: rgb(255, 255, 255);
+             padding: 15px 32px;
+             text-align: center;
+             text-decoration: none;
+             display: inline-block;
+             font-size: 16px;
+             margin: 4px 2px;
+             cursor: pointer;
+             background-color: crimson;
+        } </li>
+     </style>
 
     <h1 style="color: red ">Resumen de etiquetas</h1>
+        
+    
     <ul>
 
         <li>
