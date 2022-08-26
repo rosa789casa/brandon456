@@ -2,19 +2,23 @@
 <html>
     <head>
         <title>Estructura html</title>
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <header style="background-color: blueviolet;">
+        <header class="caja" style="background-color: #E8F2A1;">
             <h1>Titulo de encabezado</h1>
-            <p>Texte del encabezado</p>
+            <p style="margin-top:-20px ;">Texte del encabezado</p>
         </header>
-        <nav style="background-color: blue;">
-            <ul>
-                <li>Elemento 1</li>
-                <li>Elemento 2</li>
-            </ul>
-        </nav>
-        <section>
+
+        <div style="display: flex;">
+            <nav class="caja" style="background-color: #F7D1D5;">
+                <ul>
+                    <li>Elemento 1</li>
+                    <li>Elemento 2</li>
+                </ul>
+            </nav>
+
+        <section class="caja" style="background-color: #FFF5CE; width: 60%;">
             <article>
                 <h1>Titulo del articulo 1</h1>
                 <p>Texto del articulo 1</p>
@@ -24,12 +28,17 @@
                 <p>Texto del articulo 2</p>
             </article>
         </section>
-        <aside>
+
+        <aside class="caja" style="background-color: #DEDCE6;">
             <h1>Titulo del aside</h1>
             <p>Contenido del aside</p>
         </aside>
-        <footer>
+        </div>
+
+        <footer class="caja" style="background-color: #B4C7DC;">
+            <header>
             <p>Texto de pie de página</p>
+            </header>
         </footer>
     </body>
 </html>
